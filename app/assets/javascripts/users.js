@@ -4,7 +4,7 @@ $(function() {
   // watch for a form submission
   $('#form-submit-btn').click(function(e) {
     e.preventDefault();
-    $('input[type-submit]').prop('disabled', true);
+    $('input[type=submit]').prop('disabled', true);
     var error = false;
     var ccNum = $('#card_number').val(),
         cvcNum = $('#card_code').val(),
@@ -26,7 +26,7 @@ $(function() {
   
   function stripeResponseHandler(status, response) {
     // get a reference to the form
-    var f = $('#new-user');
+    var f = $('#new_user');
     
     // get the token from the response
     var token = response.id;
