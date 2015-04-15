@@ -16,6 +16,8 @@ end
 gem 'sass-rails', '4.0.3'
 # Use Twitter Bootstrap framework
 gem 'bootstrap-sass', '3.3.1'
+# Use prefixer for CSS browser compatibility
+gem 'autoprefixer-rails', '5.1.9'
 # Use FontAwesome library for icons
 gem 'font-awesome-sass', '4.2.0'
 # Use Uglifier as compressor for JavaScript assets
